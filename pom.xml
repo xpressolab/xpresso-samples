@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>xpresso.foundation</groupId>
+        <artifactId>xpresso-parent</artifactId>
+        <version>1</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>xpresso.samples</groupId>
+    <artifactId>xpresso-samples</artifactId>
+    <packaging>pom</packaging>
+    <name>XPresso Samples</name>
+
+    <developers>
+        <developer>
+            <id>felipemsantos</id>
+            <name>Felipe Santos</name>
+            <email>felipemsantos@gmail.com</email>
+        </developer>
+    </developers>
+
+    <repositories>
+        <repository>
+            <id>jcenter</id>
+            <name>JCenter Repo</name>
+            <url>http://jcenter.bintray.com</url>
+        </repository>
+        <repository>
+            <id>bintray-xpressolab-m2repo</id>
+            <name>bintray</name>
+            <url>http://dl.bintray.com/xpressolab/m2repo</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>bintray-xpressolab-m2repo</id>
+            <name>bintray-plugins</name>
+            <url>http://dl.bintray.com/xpressolab/m2repo</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
+</project>
